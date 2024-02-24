@@ -24,9 +24,8 @@
   image: "assets/img/mockup.png"
   repository: "https://github.com/elainefs/jekyll-theme-case"
   deploy: "https://elainefs.github.io/jekyll-theme-case"
-  stacks:
-    - stack: jekyll
-    - stack: html5
-    - stack: css3
-    - stack: javascript
-    - stack: bootstrap
+  skills:
+  - skill: python
+  - skill: SQL
+  - skill: Estatística
+
