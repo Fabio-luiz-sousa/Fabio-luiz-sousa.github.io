@@ -14,7 +14,7 @@ Foi coletado o seguinte:
 - As súmulas foram usadas para pegar as informações dos cartões e substituições das partidas.
 - A informações do público e renda foram coletadas do site da [Wikipédia.](https://pt.wikipedia.org/wiki/Temporada_do_Clube_de_Regatas_do_Flamengo_de_2023#Campeonato_Brasileiro_2)
 
-Abaixo, você pode ver dois gifs , um que baixa as súmulas e outro que coleta as estatíticas das partidas, do script do webscrapping em ação.  
+Abaixo, você pode ver dois gifs do script do webscrapping em ação. O primeiro baixa as súmulas e o segundo coleta as estatíticas das partidas.
 
 ![Get_pdf](src/get_pdf2.gif)  
 
@@ -27,7 +27,7 @@ Alguns arquivos deram problemas, que foram os arquivos da rodada 6 e 15, então 
 
 As informações das estatísticas das partidas eu gravei em arquivos txt e utilizei o [`pandas`](https://pandas.pydata.org/) para gravar essas informações em um `DataFrame`.  
 
-Para juntar todas essas informações eu utilizei a função `pd.concat()`do pandas para juntar as informações em um único `DataFrame` e gravei em um arquivo csv chamado `estatisticas_flamengo_brasileiro_2023.csv`.  
+Para juntar todas essas informações eu utilizei a função `pd.concat()` do pandas para juntar as informações em um único `DataFrame` e gravei em um arquivo csv chamado `estatisticas_flamengo_brasileiro_2023.csv`.  
 
 O repositório do projeto você pode conferir [aqui.](https://github.com/Fabio-luiz-sousa/flamengo_analysis_brasileiro_2023)
 {: .bubble-tip}
