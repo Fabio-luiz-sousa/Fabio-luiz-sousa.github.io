@@ -6,7 +6,7 @@ layout: page
 ###### Obtenção dos dados do time do flamengo no brasileirão 2023.
 ---
 
-Para a coleta dos dados do Mengão no Brasileirão 2023, eu fiz um webscrapping utilizando o Selenium.  
+Para a coleta dos dados do Mengão no Brasileirão 2023, eu fiz um web scrapping utilizando o Selenium.  
 
 Foi coletado o seguinte:
 - Estatísticas das partidas do flamengo no site da [FBref.](https://fbref.com/pt/)
@@ -14,7 +14,7 @@ Foi coletado o seguinte:
 - As súmulas foram usadas para pegar as informações dos cartões e substituições das partidas.
 - A informações do público e renda foram coletadas do site da [Wikipédia.](https://pt.wikipedia.org/wiki/Temporada_do_Clube_de_Regatas_do_Flamengo_de_2023#Campeonato_Brasileiro_2)
 
-Abaixo, você pode ver dois gifs do script do webscrapping em ação. O primeiro baixa as súmulas e o segundo coleta as estatíticas das partidas.
+Abaixo, você pode ver dois gifs do script do web scrapping em ação. O primeiro baixa as súmulas e o segundo coleta as estatíticas das partidas.
 
 ![Get_pdf](src/get_pdf2.gif)  
 
